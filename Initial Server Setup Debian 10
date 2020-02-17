@@ -1,0 +1,6 @@
+ssh root@your_server_ip
+apt update -y && apt upgrade -y
+adduser user
+usermod -aG sudo user
+
+nano /etc/ssh/sshd_config
